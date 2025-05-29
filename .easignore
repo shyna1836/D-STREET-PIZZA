@@ -1,0 +1,52 @@
+# Node modules (always reinstall on server)
+node_modules
+
+# Git-related files
+.git
+.gitignore
+
+# Build artifacts
+*.log
+*.tmp
+dist
+build
+*.apk
+*.aab
+*.ipa
+web-build
+coverage
+
+# macOS system files
+.DS_Store
+
+# IDE/project files
+.vscode
+.idea
+
+# OS-level trash/recycle bin
+*.Trash
+*.trash
+
+# Android and iOS native build output
+android/.gradle
+android/build
+ios/build
+
+# Local configuration
+.env.local
+.env.*.local
+
+# Expo generated files (optional, keep your own configs!)
+.expo
+.expo-shared
+
+# VSCode launch configs (optional)
+.vscode/launch.json
+
+# EAS CLI debug logs
+eas-debug.log
+
+# Ignore OneDrive/Dropbox sync files (if any)
+*.sync
+*.onedrive
+*.dropbox
